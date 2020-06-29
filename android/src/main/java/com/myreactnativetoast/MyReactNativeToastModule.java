@@ -37,6 +37,6 @@ public class MyReactNativeToastModule extends ReactContextBaseJavaModule {
 
   public MyReactNativeToastModule(ReactApplicationContext reactContext) {
     super(reactContext);
-    reactContext = context;
+    reactContext = reactContext;
   }
 }

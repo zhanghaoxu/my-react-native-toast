@@ -1,7 +1,9 @@
 import { NativeModules } from 'react-native';
 
 type MyReactNativeToastType = {
-  show(message: string, duration: number): void;
+  show(message: string, duration: number): any;
+  SHORT: number;
+  LONG: number;
 };
 
 const { MyReactNativeToast } = NativeModules;
